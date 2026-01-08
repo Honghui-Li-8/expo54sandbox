@@ -7,10 +7,11 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "build": "eas build -p android --profile development --local"
+    "build": "eas build -p android --profile development --local",
+    "upgrade:stroke-text": "yarn upgrade @charmy.tech/react-native-stroke-text@github:Honghui-Li-8/react-native-stroke-text#new-arch"
   },
   "dependencies": {
-    "@charmy.tech/react-native-stroke-text": "github:Honghui-Li-8/react-native-stroke-text#new-arch-support",
+    "@charmy.tech/react-native-stroke-text": "github:Honghui-Li-8/react-native-stroke-text#new-arch",
     "expo": "~54.0.31",
     "expo-dev-client": "~6.0.20",
     "expo-status-bar": "~3.0.9",
